@@ -1,0 +1,45 @@
+column,description,source,level
+state,State postal code (50 states + DC),—,key
+state_name,State name,weekly TRx file (node_features.csv),state
+state_id,Numeric id used in the prescription file,weekly TRx file (node_features.csv),state
+week_of_year,Week number within year,weekly TRx file (node_features.csv),state-week
+year,Calendar year of the week,weekly TRx file (node_features.csv),state-week
+start_date,"First day of the weekly period (Fridays, 2022-01-07 to 2025-01-03)",weekly TRx file (node_features.csv),state-week
+end_date,Last day of the weekly period,weekly TRx file (node_features.csv),state-week
+OZEMPIC,Total prescriptions (TRx: new + refills) dispensed for Ozempic in the state-week,weekly TRx file (node_features.csv),state-week
+WEGOVY,Total prescriptions (TRx) dispensed for Wegovy in the state-week,weekly TRx file (node_features.csv),state-week
+population,State population. Missing in the source for the last week; filled with the state maximum,weekly TRx file (node_features.csv),state-week
+population_imputed,1 if population was filled (last week only),derived,state-week
+trend,Trend variable supplied with the prescription file,weekly TRx file (node_features.csv),state-week
+post_count,"Number of GLP-1-related Reddit posts assigned to the state in the week. State inferred by a location algorithm (self-reported location, subreddit membership, location-specific posts). The 2025-01-03 week is 0 for all states and looks like the end of collection: treat as missing","Reddit, collected by the user",state-week
+pct_uninsured,"% uninsured, civilian noninstitutionalized population","ACS 5-year 2023, S2701",state
+pct_public_cov,% with public coverage,"ACS 5-year 2023, S2704",state
+median_hh_income,Median household income (USD),"ACS 5-year 2023, B19013",state
+pct_poverty,% below poverty level,"ACS 5-year 2023, S1701",state
+pct_broadband,% of households with a broadband subscription of any type,"ACS 5-year 2023, S2801",state
+pct_no_computer,% of households with no computer,"ACS 5-year 2023, S2801",state
+pct_age65plus,% of population aged 65+,"ACS 5-year 2023, S0101",state
+pct_black,% Black or African American,"ACS 5-year 2023, DP05",state
+pct_hispanic,% Hispanic or Latino (any race),"ACS 5-year 2023, DP05",state
+pct_bachelors_plus,% of adults 25+ with a bachelor's degree or higher,"ACS 5-year 2023, S1501",state
+pct_rural,% of population in rural areas,"2020 Decennial Census DHC, P2",state
+pct_obese,"Adult obesity prevalence, % (BMI ≥ 30), crude",CDC BRFSS 2023 (KY and PA: 2022),state
+pct_diabetes,"Adult diagnosed diabetes prevalence, %, crude",CDC BRFSS 2023 (KY and PA: 2022),state
+brfss_year,BRFSS year used for pct_obese / pct_diabetes,derived,state
+pct_obese_2022,"Adult obesity prevalence, BRFSS 2022",CDC BRFSS 2022,state
+pct_diabetes_2022,"Adult diabetes prevalence, BRFSS 2022",CDC BRFSS 2022,state
+medicaid_expansion,1 if the state expanded Medicaid under the ACA,hand-coded (KFF),state
+medicaid_expansion_date,Expansion effective date,hand-coded (KFF),state
+state_employee_plan_glp1_change,Change to state employee plan GLP-1 obesity coverage (NC: ended 2024-04-01),hand-coded,state
+state_employee_plan_source,Source for the above,hand-coded,state
+cov_2023q1_liu_rome,Medicaid GLP-1 obesity coverage status in 2023Q1 as reported by Liu & Rome,hand-coded from literature,state
+medicaid_glp1_obesity_h1_2024,1 if Medicaid covered GLP-1s for obesity in H1 2024 (12 states). Medium confidence; verify against KFF before citing,hand-coded,state
+medicaid_glp1_start,Start of Medicaid obesity coverage where known (NC 2024-08-01; SC 2024-11-01),hand-coded,state
+medicaid_glp1_changes,Later changes to Medicaid coverage,hand-coded,state
+medicaid_glp1_sources,Sources for Medicaid coding,hand-coded,state
+coding_confidence,Confidence in the policy coding,hand-coded,state
+pct_telehealth_adults,"% of adults using telehealth, mean over 21 survey periods (2021-04 to 2022-07)",Census Household Pulse Survey,state
+pct_telehealth_adults_nperiods,Number of survey periods averaged,Census Household Pulse Survey,state
+pct_telehealth_adults_2022,"Telehealth use, 2022 periods only",Census Household Pulse Survey,state
+compounding_action_date,Date of first state pharmacy-board action on compounded semaglutide (11 states; some dates approximate),hand-coded from news and law-firm summaries,state
+compounding_action_type,Type of that action,hand-coded,state

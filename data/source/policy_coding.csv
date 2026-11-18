@@ -1,0 +1,52 @@
+state,medicaid_expansion,medicaid_expansion_date,state_employee_plan_glp1_change,state_employee_plan_source,cov_2023q1_liu_rome,medicaid_glp1_obesity_h1_2024,medicaid_glp1_start,medicaid_glp1_changes,medicaid_glp1_sources,coding_confidence
+AL,0,,,,none or not analyzed,0,,,,medium
+AK,1,2015-09-01,,,none or not analyzed,0,,,,medium
+AZ,1,2014-01-01,,,none or not analyzed,0,,,,medium
+AR,1,2014-01-01,,,none or not analyzed,0,,,,medium
+CA,1,2014-01-01,,,broad,1,before 2023Q1,ended 2026-01-01,Liu & Rome 2024; KFF via Axios (Jul 2024); KFF Health News,high
+CO,1,2014-01-01,,,none or not analyzed,0,,,,medium
+CT,1,2014-01-01,,,none or not analyzed,0,,,,medium
+DE,1,2014-01-01,,,broad,1,before 2023Q1,,Liu & Rome 2024,high
+DC,1,2014-01-01,,,none or not analyzed,0,,,,medium
+FL,0,,,,none or not analyzed,0,,,,medium
+GA,0,,,,restricted (Saxenda only),0,Saxenda only (no semaglutide),,Liu & Rome 2024,high
+HI,1,2014-01-01,,,none or not analyzed,0,,,,medium
+ID,1,2020-01-01,,,none or not analyzed,0,,,,medium
+IL,1,2014-01-01,,,none or not analyzed,0,,,,medium
+IN,1,2015-02-01,,,none or not analyzed,0,,,,medium
+IA,1,2014-01-01,,,none or not analyzed,0,,,,medium
+KS,0,,,,none or not analyzed,0,,,,medium
+KY,1,2014-01-01,,,none or not analyzed,1,unknown; timing uncertain,Wegovy only,Real Chemistry (Dec 2024),low
+LA,1,2016-07-01,,,none or not analyzed,0,,,,medium
+ME,1,2019-01-10,,,none or not analyzed,0,,,,medium
+MD,1,2014-01-01,,,none or not analyzed,0,,,,medium
+MA,1,2014-01-01,,,none or not analyzed,1,unknown (covering by 2024-07-01),,KFF via Axios,low
+MI,1,2014-04-01,,,restricted,1,before 2023Q1,restricted to morbid obesity,Liu & Rome 2024; KFF via Axios; Milliman,high
+MN,1,2014-01-01,,,broad,1,before 2023Q1,,Liu & Rome 2024; KFF via Axios,high
+MS,0,,,,none or not analyzed,1,2023 (PA criteria posted by 2023-04),BMI-based criteria,KFF Health News; MS Medicaid PA criteria v1.3,high
+MO,1,2021-10-01,,,none or not analyzed,0,2024 (PDL edit 2024-10-15); date to verify,,Milliman,low
+MT,1,2016-01-01,,,none or not analyzed,0,,,,medium
+NE,1,2020-10-01,,,none or not analyzed,0,,,,medium
+NV,1,2014-01-01,,,none or not analyzed,0,,,,medium
+NH,1,2014-08-15,,,restricted,1,before 2023Q1,restricted; change effective 2026-01-01,Liu & Rome 2024; KFF policy watch,high
+NJ,1,2014-01-01,,,none or not analyzed,0,,,,medium
+NM,1,2014-01-01,,,none or not analyzed,0,,,,medium
+NY,1,2014-01-01,,,none or not analyzed,0,,,,medium
+NC,1,2023-12-01,ended 2024-04-01,WECT 2024-01-26,none or not analyzed,0,2024-08-01,ended 2025-10-01; reinstated 2025-12-12,Becker's Payer; Milliman,high
+ND,1,2014-01-01,,,none or not analyzed,0,,,,medium
+OH,1,2014-01-01,,,none or not analyzed,0,,,,medium
+OK,1,2021-07-01,,,none or not analyzed,0,,,,medium
+OR,1,2014-01-01,,,none or not analyzed,0,,,,medium
+PA,1,2015-01-01,,,restricted,1,before 2023Q1,restricted; later ended,Liu & Rome 2024; KFF via Axios; KFF policy watch,high
+RI,1,2014-01-01,,,broad,1,before 2023Q1,,Liu & Rome 2024,high
+SC,0,,,,none or not analyzed,0,2024-11-01,ended 2026-01-01,SC Daily Gazette,high
+SD,1,2023-07-01,,,none or not analyzed,0,,,,medium
+TN,0,,,,none or not analyzed,0,,,,medium
+TX,0,,,,none or not analyzed,0,,,,medium
+UT,1,2020-01-01,,,none or not analyzed,0,,,,medium
+VT,1,2014-01-01,,,none or not analyzed,0,,,,medium
+VA,1,2019-01-01,,,broad,1,before 2023Q1,"criteria restricted 2024-07-01 (BMI>40, or >37 with comorbidity)",Liu & Rome 2024; Milliman,high
+WA,1,2014-01-01,,,none or not analyzed,0,,,,medium
+WV,1,2014-01-01,,,none or not analyzed,0,,,,medium
+WI,0,,,,restricted,1,before 2023Q1,restricted,Liu & Rome 2024,high
+WY,0,,,,none or not analyzed,0,,,,medium

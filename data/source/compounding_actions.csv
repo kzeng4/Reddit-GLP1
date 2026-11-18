@@ -1,0 +1,12 @@
+state,first_action_date,action_type,summary,sources
+WV,2023-04-21,pharmacy warning,Board statement: non-conforming compounding may lead to enforcement,NBC News (May 2023); Sheppard Mullin
+LA,2023-05-01,pharmacy warning,Board told pharmacies to stop using unapproved (salt) forms; exact date to verify,NBC News (May 2023)
+MS,2023-05-01,pharmacy warning,Board took similar steps; exact date to verify,NBC News (May 2023)
+NC,2023-05-01,pharmacy warning,Regulators told pharmacies to stop unapproved versions; exact date to verify,NBC News (May 2023)
+NJ,2023-11-06,pharmacy statement,Salt forms prohibited; FDA-registered API source + COA,NJ Board of Pharmacy; Sheppard Mullin; RxIndex
+SD,2024-01-01,consumer notice,"Consumer-safety notice on counterfeit/salt forms, dosing error",SD Board of Pharmacy via RxIndex
+KS,2024-04-01,pharmacy statement,Board semaglutide statement (content to verify),Sheppard Mullin
+UT,2024-05-01,enforcement notice,"Citations for unlicensed dispensing, salt forms, labeling",Utah DOPL via RxIndex
+ID,2024-05-29,pharmacy letter,Batch syringes non-patient-specific = dispensing,Idaho Board of Pharmacy via RxIndex
+AL,2024-08-08,medical board ruling,"Physician-office compounding conditions (source, Rx, compounding)",Alabama BME; Sheppard Mullin
+WA,2024-08-22,pharmacy statement,Semaglutide compounding statement,WA Pharmacy Commission; Sheppard Mullin
